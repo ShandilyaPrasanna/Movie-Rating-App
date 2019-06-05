@@ -3,6 +3,12 @@ body {
   color: #fff;
 }
 
+a {
+  color: #0000ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .backgroundImage {
   background: url("assets/img/hero-background.jpg") no-repeat center;
   background-size: cover;
