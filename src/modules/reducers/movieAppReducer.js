@@ -1,5 +1,4 @@
 import MovieAppUtils from "../utils/movieAppUtils";
-import { cloneDeep } from "lodash";
 import Constants from "../constants/movieAppConstants";
 
 const defaultState = {
@@ -8,12 +7,13 @@ const defaultState = {
 };
 
 export default function(state = defaultState, action) {
-  const newState = cloneDeep(state);
   switch (action.type) {
     case Constants.actions.GET_MOVIES:
-      newState.loading = false;
-      newState.movies = MovieAppUtils.getMappedData(action.payload);
-      return newState;
+      return {
+        ...state,
+        loading: false,
+        movies: MovieAppUtils.getMappedData(action.payload)
+      };
 
     case Constants.actions.IS_LOADING:
       return { ...state, loading: action.payload };
