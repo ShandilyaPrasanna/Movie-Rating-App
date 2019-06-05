@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainComponent Test renders MainComponent  1`] = `
+<WithStyles(ForwardRef(Container))
+  maxWidth="lg"
+>
+  <div
+    className="spinner"
+  />
+  <Header />
+  <WithStyles(undefined) />
+  <WithStyles(undefined) />
+  <Footer />
+</WithStyles(ForwardRef(Container))>
+`;

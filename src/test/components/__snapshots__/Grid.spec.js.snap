@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movieGrid Test renders movieGrid  1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+  style={
+    Object {
+      "marginTop": "20px",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    sm={6}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Typography))
+          component="h2"
+          variant="h5"
+        >
+          Black Panther (2018)
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(CardContent))
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(CardContent))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Genre:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                Fantasy,Sci-fi
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Duration:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                2h 15m
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Director:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                Ryan Coogler
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+          </WithStyles(ForwardRef(CardContent))>
+          <WithStyles(ForwardRef(CardMedia))
+            alt="Contemplative Reptile"
+            component="img"
+            height="140"
+            image="clapperboard-icon.jpg"
+            title="Watch Movie"
+          />
+        </WithStyles(ForwardRef(CardContent))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Typography))
+          color="textSecondary"
+          component="p"
+          variant="body2"
+        >
+          After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          style={
+            Object {
+              "padding": "3px",
+            }
+          }
+          variant="body2"
+        >
+          7.3/10
+        </WithStyles(ForwardRef(Typography))>
+        <GradeIcon />
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          variant="body2"
+        >
+          IMDb
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    sm={6}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Typography))
+          component="h2"
+          variant="h5"
+        >
+          Black Panther (2018)
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(CardContent))
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <WithStyles(ForwardRef(CardContent))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Genre:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                Fantasy,Sci-fi
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Duration:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                2h 15m
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+            <WithStyles(ForwardRef(Container))
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(Typography))
+                component="h3"
+                variant="h8"
+              >
+                Director:
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                color="primary"
+                component="p"
+                style={
+                  Object {
+                    "padding": "3px",
+                  }
+                }
+                variant="body2"
+              >
+                Ryan Coogler
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(Container))>
+          </WithStyles(ForwardRef(CardContent))>
+          <WithStyles(ForwardRef(CardMedia))
+            alt="Contemplative Reptile"
+            component="img"
+            height="140"
+            image="clapperboard-icon.jpg"
+            title="Watch Movie"
+          />
+        </WithStyles(ForwardRef(CardContent))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Typography))
+          color="textSecondary"
+          component="p"
+          variant="body2"
+        >
+          After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          style={
+            Object {
+              "padding": "3px",
+            }
+          }
+          variant="body2"
+        >
+          7.3/10
+        </WithStyles(ForwardRef(Typography))>
+        <GradeIcon />
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          variant="body2"
+        >
+          IMDb
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          style={
+            Object {
+              "marginLeft": "auto",
+              "padding": "3px",
+            }
+          }
+          variant="body2"
+        >
+          7.3/10
+        </WithStyles(ForwardRef(Typography))>
+        <GradeIcon />
+        <WithStyles(ForwardRef(Typography))
+          color="primary"
+          component="p"
+          variant="body2"
+        >
+          IMDb
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

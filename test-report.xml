@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\reducers\movieAppReducer.spec.js">
+    <testCase name="Check reducer Functionality check reducer " duration="9"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\components\Grid.spec.js">
+    <testCase name="movieGrid Test renders movieGrid " duration="25"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\actions\index.spec.js">
+    <testCase name="Check actions Test for action getMoviesAction " duration="38"/>
+    <testCase name="Check actions Test for action isLoading " duration="1"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\components\Header.spec.js">
+    <testCase name="Header Test renders Header " duration="22"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\components\Footer.spec.js">
+    <testCase name="Footer Test renders Footer " duration="7"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\components\SearchComponent.spec.js">
+    <testCase name="SearchComponent Test renders SearchComponent " duration="21"/>
+    <testCase name="SearchComponent Test check onChange of searchBar " duration="7"/>
+    <testCase name="SearchComponent Test check checkbox state change " duration="5"/>
+    <testCase name="SearchComponent Test check checkbox state change " duration="5"/>
+    <testCase name="SearchComponent Test Apply filter button functionality " duration="3"/>
+    <testCase name="SearchComponent Test  filter year change handler " duration="2"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\test\MainComponent.spec.js">
+    <testCase name="MainComponent Test renders MainComponent " duration="9"/>
+    <testCase name="MainComponent Test mapStateToProps " duration="1"/>
+  </file>
+  <file path="C:\Users\shandily\Desktop\prasanna\reactApp\movieApp_workspace\src\index.test.js">
+    <testCase name="movieGrid Test renders App " duration="3"/>
+  </file>
+</testExecutions>

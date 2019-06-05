@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Test renders Footer  1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <footer
+    className="makeStyles-footer-2"
+  >
+    <WithStyles(ForwardRef(Container))
+      maxWidth="sm"
+    >
+      Follow us on social media Sites :- 
+      <a>
+        Facebook
+      </a>
+       
+      <a>
+        Twitter
+      </a>
+       
+      <a>
+        Instagram
+      </a>
+       
+      <a>
+        Linkedln
+      </a>
+    </WithStyles(ForwardRef(Container))>
+  </footer>
+</div>
+`;

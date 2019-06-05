@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchComponent Test renders SearchComponent  1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Container))
+    maxWidth="sm"
+  >
+    <WithStyles(ForwardRef(Paper))>
+      <WithStyles(ForwardRef(IconButton))>
+        <MenuIcon />
+      </WithStyles(ForwardRef(IconButton))>
+      <WithStyles(ForwardRef(InputBase))
+        id="searchBar"
+        onChange={[Function]}
+        placeholder="Search Movies Here"
+      />
+      <WithStyles(ForwardRef(IconButton))>
+        <SearchIcon />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Container))>
+  <WithStyles(ForwardRef(Container))
+    maxWidth="sm"
+  >
+    <div>
+      Filter By:- Year
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        id="checkboxYear"
+        onChange={[Function]}
+        style={
+          Object {
+            "color": "#ffff",
+          }
+        }
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "marginLeft": "auto",
+        }
+      }
+    >
+      Genre
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        id="checkboxGenre"
+        onChange={[Function]}
+        style={
+          Object {
+            "color": "#ffff",
+          }
+        }
+      />
+      <WithStyles(ForwardRef(TextField))
+        InputProps={
+          Object {
+            "disableUnderline": true,
+            "style": Object {
+              "marginLeft": "30px",
+            },
+          }
+        }
+        id="standard-genre"
+        name="genre"
+        onChange={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "marginTop": "6px",
+            "visibility": "hidden",
+            "width": "100px",
+          }
+        }
+      />
+    </div>
+    <WithStyles(ForwardRef(Button))
+      id="applyFiler"
+      onClick={[Function]}
+      style={
+        Object {
+          "marginLeft": "25px",
+        }
+      }
+      variant="contained"
+    >
+      Apply
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(Container))>
+</Fragment>
+`;
